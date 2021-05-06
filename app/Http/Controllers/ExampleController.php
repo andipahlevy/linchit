@@ -22,7 +22,7 @@ class ExampleController extends Controller
 		return base64_encode($s);
 	}
 
-    public function tes(){
+    public function hit(){
 		$Master 		= new Master;
 		
 		$Username 		= 'linc-test';

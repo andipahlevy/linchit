@@ -17,6 +17,6 @@ $router->get('/', function () use ($router) {
     return $router->app->version();
 });
 
-$router->get('/tes', [
-	'as' => 'tes', 'uses' => 'ExampleController@tes'
+$router->get('/hit', [
+	'as' => 'hit', 'uses' => 'ExampleController@hit'
 ]);	
